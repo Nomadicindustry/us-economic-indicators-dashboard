@@ -34,21 +34,24 @@ Python → SQL → Power BI
 4. Data is exported to CSV for visualization
 5. Power BI dashboard displays KPIs and trends
 ## Project Structure
+
+```
 Economic_Job_Market_Dashboard/
 ├── assets/
-│ ├── dashboard_kpi.png
-│ └── dashboard_full.png
+│   ├── dashboard_kpi.png
+│   └── dashboard_full.png
 ├── data/
-│ └── economic_data.csv
+│   └── economic_data.csv
 ├── scripts/
-│ └── fred_data_pull.py
+│   └── fred_data_pull.py
 ├── sql/
-│ ├── 01_preview_indicators.sql
-│ └── 02_powerbi_view.sql
+│   ├── 01_preview_indicators.sql
+│   └── 02_powerbi_view.sql
 ├── powerbi/
-│ └── us-economic-indicators-dashboard.pbix
+│   └── us-economic-indicators-dashboard.pbix
 ├── README.md
 └── requirements.txt
+```
 ## Why This Project Matters
 This project demonstrates the ability to:
 - Work with real-world API data
